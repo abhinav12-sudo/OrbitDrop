@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Allow dev assets when opening the site by LAN IP (e.g. phone / another PC).
-  // Update the address if your machine gets a different IP.
-  allowedDevOrigins: ["172.17.74.126"],
+  // LAN IP changes with DHCP / network switches; allow the whole 172.17.x.x range.
+  // Add another line (e.g. "192.168.*.*") if you test on a different subnet.
+  allowedDevOrigins: ["172.17.*.*"],
 };
 
 export default nextConfig;
