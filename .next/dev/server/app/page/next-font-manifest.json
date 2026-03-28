@@ -1,7 +1,7 @@
 {
   "pages": {},
   "app": {
-    "[project]/src/app/page": [
+    "[project]/OrbitDrop/src/app/page": [
       "static/media/83afe278b6a6bb3c-s.p.0q-301v4kxxnr.woff2",
       "static/media/5f402bd2d8eef81a-s.p.16whm0euli40m.woff2"
     ]
