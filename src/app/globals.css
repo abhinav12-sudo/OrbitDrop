@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-newsreader);
+
+  /* Deep-space monochromatic foundation with Electric Blue */
+  --color-background: #0a0a0a;
+  --color-foreground: #ffffff;
+  --color-primary: #4F8EF7;
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-card: rgba(255, 255, 255, 0.05);
+}
+
+/* Base styles are mostly handled by Tailwind and our body classes in layout,
+   but we'll keep it clean here. */
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    line-height: inherit;
+  }
+}
